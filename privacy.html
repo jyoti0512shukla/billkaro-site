@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - BillKaro</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #1E293B; line-height: 1.7; background: #F8FAFC; }
+        .container { max-width: 720px; margin: 0 auto; padding: 40px 24px; }
+        h1 { font-size: 28px; font-weight: 800; margin-bottom: 8px; }
+        .subtitle { color: #64748B; font-size: 14px; margin-bottom: 32px; }
+        h2 { font-size: 18px; font-weight: 700; margin-top: 32px; margin-bottom: 12px; color: #2563EB; }
+        h3 { font-size: 15px; font-weight: 600; margin-top: 20px; margin-bottom: 8px; }
+        p, li { font-size: 15px; color: #475569; margin-bottom: 10px; }
+        ul { padding-left: 24px; margin-bottom: 16px; }
+        li { margin-bottom: 6px; }
+        .highlight { background: #EFF6FF; border-left: 4px solid #2563EB; padding: 16px; border-radius: 0 8px 8px 0; margin: 16px 0; }
+        .highlight p { margin-bottom: 0; color: #1E40AF; }
+        table { width: 100%; border-collapse: collapse; margin: 16px 0; }
+        th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid #E2E8F0; font-size: 14px; }
+        th { background: #F1F5F9; font-weight: 600; color: #1E293B; }
+        td { color: #475569; }
+        .footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid #E2E8F0; color: #94A3B8; font-size: 13px; }
+        a { color: #2563EB; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <p class="subtitle">BillKaro - Smart Munshi for Indian Businesses<br>Last updated: 6 April 2026</p>
+
+        <div class="highlight">
+            <p><strong>Simple version:</strong> Aapka business data sirf aapka hai. Hum AI use karte hain invoices banana aur GST filing ke liye. Aapka data becha ya share nahi hota — sirf processing ke liye use hota hai.</p>
+        </div>
+
+        <h2>1. What We Collect</h2>
+        <p>BillKaro collects only what's needed to run your business operations:</p>
+        <table>
+            <tr><th>Data</th><th>Why</th></tr>
+            <tr><td>Business name, GSTIN, address</td><td>Invoice generation, GST compliance</td></tr>
+            <tr><td>Buyer/supplier details</td><td>Invoice creation, payment tracking</td></tr>
+            <tr><td>Invoice items, amounts, taxes</td><td>Billing, GST reports, filing</td></tr>
+            <tr><td>Purchase bill images/PDFs</td><td>AI extraction of supplier data</td></tr>
+            <tr><td>Voice messages (paid plans)</td><td>Speech-to-text for chat input</td></tr>
+            <tr><td>Stock/inventory data</td><td>Inventory management</td></tr>
+            <tr><td>Google account email</td><td>Authentication (sign-in only)</td></tr>
+            <tr><td>UPI ID (optional)</td><td>Payment QR on invoices</td></tr>
+        </table>
+
+        <h2>2. Third-Party Services</h2>
+        <p>BillKaro uses the following third-party services to provide its features:</p>
+
+        <h3>Google Gemini AI</h3>
+        <ul>
+            <li>Used for: Chat processing, invoice creation, purchase bill extraction, voice transcription, HSN code resolution, munshi insights</li>
+            <li>What's sent: Text messages, invoice details, images of purchase bills, audio recordings</li>
+            <li>Data retention: Google processes data in real-time and does not store it for model training under the API terms</li>
+            <li><a href="https://ai.google.dev/gemini-api/terms" target="_blank">Google Gemini API Terms</a></li>
+        </ul>
+
+        <h3>Supabase (Database & Storage)</h3>
+        <ul>
+            <li>Used for: Storing all business data, invoices, inventory, user accounts</li>
+            <li>Location: Cloud servers (AWS)</li>
+            <li>Security: Row-level security, encrypted at rest</li>
+            <li><a href="https://supabase.com/privacy" target="_blank">Supabase Privacy Policy</a></li>
+        </ul>
+
+        <h3>Sandbox.co.in (GST APIs)</h3>
+        <ul>
+            <li>Used for: GSTIN verification, GST return filing, e-invoice generation, e-way bill (paid plans only)</li>
+            <li>What's sent: GSTIN numbers, invoice data for filing, business registration details</li>
+            <li>This is a GSTN-authorized Tax Suvidha Provider</li>
+            <li><a href="https://sandbox.co.in/privacy" target="_blank">Sandbox Privacy Policy</a></li>
+        </ul>
+
+        <h3>Google Sign-In</h3>
+        <ul>
+            <li>Used for: Authentication only</li>
+            <li>We receive: Email address and display name</li>
+            <li>We do NOT access: Contacts, calendar, drive, or any other Google data</li>
+        </ul>
+
+        <h3>Firebase App Distribution</h3>
+        <ul>
+            <li>Used for: Beta testing distribution only</li>
+            <li><a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy Policy</a></li>
+        </ul>
+
+        <h2>3. What We Don't Do</h2>
+        <ul>
+            <li>We do NOT sell your data to anyone</li>
+            <li>We do NOT use your data for advertising</li>
+            <li>We do NOT share your business data with other users</li>
+            <li>We do NOT store your GST portal password (only time-limited tokens)</li>
+            <li>We do NOT access your bank account or UPI transactions</li>
+            <li>We do NOT train AI models on your data</li>
+        </ul>
+
+        <h2>4. Data Security</h2>
+        <ul>
+            <li>All data transmitted over HTTPS (encrypted in transit)</li>
+            <li>Database encrypted at rest (Supabase/AWS)</li>
+            <li>GST credentials stored with encryption</li>
+            <li>Row-level security ensures users can only access their own data</li>
+            <li>API keys and secrets stored as environment variables, never in code</li>
+        </ul>
+
+        <h2>5. Your Rights</h2>
+        <ul>
+            <li><strong>Access:</strong> You can view all your data in the app at any time</li>
+            <li><strong>Export:</strong> GST reports, invoices, and khata data can be exported/shared</li>
+            <li><strong>Delete:</strong> Contact us to delete your account and all associated data</li>
+            <li><strong>Withdraw consent:</strong> You can stop using AI features by uninstalling the app</li>
+        </ul>
+
+        <h2>6. Data Retention</h2>
+        <ul>
+            <li>Business data is retained as long as your account is active</li>
+            <li>Invoice and filing records are retained for 8 years (GST compliance requirement)</li>
+            <li>Voice recordings are processed in real-time and not stored after transcription</li>
+            <li>Deleted accounts: data removed within 30 days</li>
+        </ul>
+
+        <h2>7. Children</h2>
+        <p>BillKaro is a business tool intended for use by adults (18+). We do not knowingly collect data from children.</p>
+
+        <h2>8. Changes to This Policy</h2>
+        <p>We may update this policy as we add features. Significant changes will be communicated through the app. The "Last updated" date at the top reflects the latest version.</p>
+
+        <h2>9. Contact</h2>
+        <p>For privacy questions, data deletion requests, or concerns:</p>
+        <ul>
+            <li>Email: <a href="mailto:jyoti0512shukla@gmail.com">jyoti0512shukla@gmail.com</a></li>
+        </ul>
+
+        <div class="footer">
+            <p>BillKaro &mdash; Apni dukaan ke liye ek smart munshi.<br>&copy; 2026 BillKaro. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
